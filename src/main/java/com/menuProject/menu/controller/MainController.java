@@ -1,4 +1,4 @@
-package com.menuProject.menu;
+package com.menuProject.menu.controller;
 
 import com.menuProject.menu.domain.Message;
 import com.menuProject.menu.repos.MessageRepo;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
     @Autowired
     private MessageRepo messageRepo;
 
